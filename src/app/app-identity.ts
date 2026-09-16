@@ -1,4 +1,4 @@
 export const appIdentity = {
   id: "design-builder",
-  title: "Design Builder",
+  title: "Fin Globe",
 } as const;
