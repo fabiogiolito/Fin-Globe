@@ -1,5 +1,6 @@
 import { Outlet, createRootRoute, createRoute } from "@tanstack/react-router";
 
+import { GlobeDemo } from "./demo";
 import { AppHome } from "./index";
 
 function RootLayout(): React.JSX.Element {
@@ -16,4 +17,10 @@ const indexRoute = createRoute({
   path: "/",
 });
 
-export const routeTree = rootRoute.addChildren([indexRoute]);
+const demoRoute = createRoute({
+  component: GlobeDemo,
+  getParentRoute: () => rootRoute,
+  path: "/demo",
+});
+
+export const routeTree = rootRoute.addChildren([indexRoute, demoRoute]);

@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "PPCirka";
+  font-weight: 500;
+  src: url("../fonts/PPCirka-Medium.woff2") format("woff2"), url("../fonts/PPCirka-Medium.woff") format("woff");
+}
+@font-face {
+  font-family: "PPCirka";
+  font-weight: 700;
+  src: url("../fonts/PPCirka-Bold.woff2") format("woff2"), url("../fonts/PPCirka-Bold.woff") format("woff");
+}
