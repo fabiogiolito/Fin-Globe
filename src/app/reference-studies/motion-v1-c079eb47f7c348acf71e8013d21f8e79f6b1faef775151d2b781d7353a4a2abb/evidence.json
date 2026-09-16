@@ -1,0 +1,588 @@
+{
+  "changeMetric": "max-yuva-diff-v1",
+  "contactSheet": {
+    "columns": 9,
+    "height": 1350,
+    "path": "src/app/reference-studies/motion-v1-c079eb47f7c348acf71e8013d21f8e79f6b1faef775151d2b781d7353a4a2abb/contact-sheet.png",
+    "rows": 5,
+    "sha256": "e5f25cfa8c2150e9f8294e901c73a9e050c6fa2249bbc5e6279c1a60118b3f3e",
+    "width": 4320
+  },
+  "decodedFrameCount": 73,
+  "detectedEvents": [
+    {
+      "afterFrameId": "source-frame:9",
+      "beforeFrameId": "source-frame:7",
+      "eventId": "motion-event:change:7-8-9",
+      "kind": "change",
+      "peakFrameId": "source-frame:8",
+      "score": 0.020071058823529414,
+      "windowFrameIds": [
+        "source-frame:7",
+        "source-frame:8",
+        "source-frame:9"
+      ]
+    },
+    {
+      "afterFrameId": "source-frame:26",
+      "beforeFrameId": "source-frame:24",
+      "eventId": "motion-event:change:24-25-26",
+      "kind": "change",
+      "peakFrameId": "source-frame:25",
+      "score": 0.01700156862745098,
+      "windowFrameIds": [
+        "source-frame:24",
+        "source-frame:25",
+        "source-frame:26"
+      ]
+    },
+    {
+      "afterFrameId": "source-frame:50",
+      "beforeFrameId": "source-frame:48",
+      "eventId": "motion-event:change:48-49-50",
+      "kind": "change",
+      "peakFrameId": "source-frame:49",
+      "score": 0.009336745098039214,
+      "windowFrameIds": [
+        "source-frame:48",
+        "source-frame:49",
+        "source-frame:50"
+      ]
+    },
+    {
+      "afterFrameId": "source-frame:1",
+      "beforeFrameId": "source-frame:72",
+      "eventId": "motion-event:loop-seam:72-0-1",
+      "kind": "loop-seam",
+      "peakFrameId": "source-frame:0",
+      "score": 0.06591411764705882,
+      "windowFrameIds": [
+        "source-frame:72",
+        "source-frame:0",
+        "source-frame:1"
+      ]
+    }
+  ],
+  "durationSeconds": 3.041667,
+  "evidenceVersion": 1,
+  "ffmpegVersion": "ffmpeg 7.1.1",
+  "ffprobeVersion": "ffprobe 7.1.1",
+  "focusWindows": [],
+  "height": 720,
+  "maximumSourceFrameGapSeconds": 0.04166700000000001,
+  "nominalFrameRate": 24,
+  "overviewFrameIds": [
+    "source-frame:0",
+    "source-frame:2",
+    "source-frame:4",
+    "source-frame:6",
+    "source-frame:8",
+    "source-frame:10",
+    "source-frame:12",
+    "source-frame:14",
+    "source-frame:16",
+    "source-frame:18",
+    "source-frame:20",
+    "source-frame:22",
+    "source-frame:24",
+    "source-frame:26",
+    "source-frame:28",
+    "source-frame:30",
+    "source-frame:32",
+    "source-frame:34",
+    "source-frame:36",
+    "source-frame:38",
+    "source-frame:40",
+    "source-frame:42",
+    "source-frame:44",
+    "source-frame:46",
+    "source-frame:48",
+    "source-frame:50",
+    "source-frame:52",
+    "source-frame:54",
+    "source-frame:56",
+    "source-frame:58",
+    "source-frame:60",
+    "source-frame:62",
+    "source-frame:64",
+    "source-frame:66",
+    "source-frame:68",
+    "source-frame:70",
+    "source-frame:72"
+  ],
+  "overviewTargetFps": 12,
+  "reviewedFrames": [
+    {
+      "cell": {
+        "column": 0,
+        "row": 0
+      },
+      "frameId": "source-frame:0",
+      "sourceFrameIndex": 0,
+      "sourceLocator": "/Users/fabiogiolito/Sites/design-builder/.toolcraft/scratch/gold-globe/reference-gold-globe.mp4#frame=0",
+      "sourceSha256": "a646564af9d8953d64fe07a5f036ae9b67bc823cbee950cf6e25485b37e66405",
+      "timeSeconds": 0
+    },
+    {
+      "cell": {
+        "column": 1,
+        "row": 0
+      },
+      "frameId": "source-frame:1",
+      "sourceFrameIndex": 1,
+      "sourceLocator": "/Users/fabiogiolito/Sites/design-builder/.toolcraft/scratch/gold-globe/reference-gold-globe.mp4#frame=1",
+      "sourceSha256": "a646564af9d8953d64fe07a5f036ae9b67bc823cbee950cf6e25485b37e66405",
+      "timeSeconds": 0.041667
+    },
+    {
+      "cell": {
+        "column": 2,
+        "row": 0
+      },
+      "frameId": "source-frame:2",
+      "sourceFrameIndex": 2,
+      "sourceLocator": "/Users/fabiogiolito/Sites/design-builder/.toolcraft/scratch/gold-globe/reference-gold-globe.mp4#frame=2",
+      "sourceSha256": "a646564af9d8953d64fe07a5f036ae9b67bc823cbee950cf6e25485b37e66405",
+      "timeSeconds": 0.083333
+    },
+    {
+      "cell": {
+        "column": 3,
+        "row": 0
+      },
+      "frameId": "source-frame:4",
+      "sourceFrameIndex": 4,
+      "sourceLocator": "/Users/fabiogiolito/Sites/design-builder/.toolcraft/scratch/gold-globe/reference-gold-globe.mp4#frame=4",
+      "sourceSha256": "a646564af9d8953d64fe07a5f036ae9b67bc823cbee950cf6e25485b37e66405",
+      "timeSeconds": 0.166667
+    },
+    {
+      "cell": {
+        "column": 4,
+        "row": 0
+      },
+      "frameId": "source-frame:6",
+      "sourceFrameIndex": 6,
+      "sourceLocator": "/Users/fabiogiolito/Sites/design-builder/.toolcraft/scratch/gold-globe/reference-gold-globe.mp4#frame=6",
+      "sourceSha256": "a646564af9d8953d64fe07a5f036ae9b67bc823cbee950cf6e25485b37e66405",
+      "timeSeconds": 0.25
+    },
+    {
+      "cell": {
+        "column": 5,
+        "row": 0
+      },
+      "frameId": "source-frame:7",
+      "sourceFrameIndex": 7,
+      "sourceLocator": "/Users/fabiogiolito/Sites/design-builder/.toolcraft/scratch/gold-globe/reference-gold-globe.mp4#frame=7",
+      "sourceSha256": "a646564af9d8953d64fe07a5f036ae9b67bc823cbee950cf6e25485b37e66405",
+      "timeSeconds": 0.291667
+    },
+    {
+      "cell": {
+        "column": 6,
+        "row": 0
+      },
+      "frameId": "source-frame:8",
+      "sourceFrameIndex": 8,
+      "sourceLocator": "/Users/fabiogiolito/Sites/design-builder/.toolcraft/scratch/gold-globe/reference-gold-globe.mp4#frame=8",
+      "sourceSha256": "a646564af9d8953d64fe07a5f036ae9b67bc823cbee950cf6e25485b37e66405",
+      "timeSeconds": 0.333333
+    },
+    {
+      "cell": {
+        "column": 7,
+        "row": 0
+      },
+      "frameId": "source-frame:9",
+      "sourceFrameIndex": 9,
+      "sourceLocator": "/Users/fabiogiolito/Sites/design-builder/.toolcraft/scratch/gold-globe/reference-gold-globe.mp4#frame=9",
+      "sourceSha256": "a646564af9d8953d64fe07a5f036ae9b67bc823cbee950cf6e25485b37e66405",
+      "timeSeconds": 0.375
+    },
+    {
+      "cell": {
+        "column": 8,
+        "row": 0
+      },
+      "frameId": "source-frame:10",
+      "sourceFrameIndex": 10,
+      "sourceLocator": "/Users/fabiogiolito/Sites/design-builder/.toolcraft/scratch/gold-globe/reference-gold-globe.mp4#frame=10",
+      "sourceSha256": "a646564af9d8953d64fe07a5f036ae9b67bc823cbee950cf6e25485b37e66405",
+      "timeSeconds": 0.416667
+    },
+    {
+      "cell": {
+        "column": 0,
+        "row": 1
+      },
+      "frameId": "source-frame:12",
+      "sourceFrameIndex": 12,
+      "sourceLocator": "/Users/fabiogiolito/Sites/design-builder/.toolcraft/scratch/gold-globe/reference-gold-globe.mp4#frame=12",
+      "sourceSha256": "a646564af9d8953d64fe07a5f036ae9b67bc823cbee950cf6e25485b37e66405",
+      "timeSeconds": 0.5
+    },
+    {
+      "cell": {
+        "column": 1,
+        "row": 1
+      },
+      "frameId": "source-frame:14",
+      "sourceFrameIndex": 14,
+      "sourceLocator": "/Users/fabiogiolito/Sites/design-builder/.toolcraft/scratch/gold-globe/reference-gold-globe.mp4#frame=14",
+      "sourceSha256": "a646564af9d8953d64fe07a5f036ae9b67bc823cbee950cf6e25485b37e66405",
+      "timeSeconds": 0.583333
+    },
+    {
+      "cell": {
+        "column": 2,
+        "row": 1
+      },
+      "frameId": "source-frame:16",
+      "sourceFrameIndex": 16,
+      "sourceLocator": "/Users/fabiogiolito/Sites/design-builder/.toolcraft/scratch/gold-globe/reference-gold-globe.mp4#frame=16",
+      "sourceSha256": "a646564af9d8953d64fe07a5f036ae9b67bc823cbee950cf6e25485b37e66405",
+      "timeSeconds": 0.666667
+    },
+    {
+      "cell": {
+        "column": 3,
+        "row": 1
+      },
+      "frameId": "source-frame:18",
+      "sourceFrameIndex": 18,
+      "sourceLocator": "/Users/fabiogiolito/Sites/design-builder/.toolcraft/scratch/gold-globe/reference-gold-globe.mp4#frame=18",
+      "sourceSha256": "a646564af9d8953d64fe07a5f036ae9b67bc823cbee950cf6e25485b37e66405",
+      "timeSeconds": 0.75
+    },
+    {
+      "cell": {
+        "column": 4,
+        "row": 1
+      },
+      "frameId": "source-frame:20",
+      "sourceFrameIndex": 20,
+      "sourceLocator": "/Users/fabiogiolito/Sites/design-builder/.toolcraft/scratch/gold-globe/reference-gold-globe.mp4#frame=20",
+      "sourceSha256": "a646564af9d8953d64fe07a5f036ae9b67bc823cbee950cf6e25485b37e66405",
+      "timeSeconds": 0.833333
+    },
+    {
+      "cell": {
+        "column": 5,
+        "row": 1
+      },
+      "frameId": "source-frame:22",
+      "sourceFrameIndex": 22,
+      "sourceLocator": "/Users/fabiogiolito/Sites/design-builder/.toolcraft/scratch/gold-globe/reference-gold-globe.mp4#frame=22",
+      "sourceSha256": "a646564af9d8953d64fe07a5f036ae9b67bc823cbee950cf6e25485b37e66405",
+      "timeSeconds": 0.916667
+    },
+    {
+      "cell": {
+        "column": 6,
+        "row": 1
+      },
+      "frameId": "source-frame:24",
+      "sourceFrameIndex": 24,
+      "sourceLocator": "/Users/fabiogiolito/Sites/design-builder/.toolcraft/scratch/gold-globe/reference-gold-globe.mp4#frame=24",
+      "sourceSha256": "a646564af9d8953d64fe07a5f036ae9b67bc823cbee950cf6e25485b37e66405",
+      "timeSeconds": 1
+    },
+    {
+      "cell": {
+        "column": 7,
+        "row": 1
+      },
+      "frameId": "source-frame:25",
+      "sourceFrameIndex": 25,
+      "sourceLocator": "/Users/fabiogiolito/Sites/design-builder/.toolcraft/scratch/gold-globe/reference-gold-globe.mp4#frame=25",
+      "sourceSha256": "a646564af9d8953d64fe07a5f036ae9b67bc823cbee950cf6e25485b37e66405",
+      "timeSeconds": 1.041667
+    },
+    {
+      "cell": {
+        "column": 8,
+        "row": 1
+      },
+      "frameId": "source-frame:26",
+      "sourceFrameIndex": 26,
+      "sourceLocator": "/Users/fabiogiolito/Sites/design-builder/.toolcraft/scratch/gold-globe/reference-gold-globe.mp4#frame=26",
+      "sourceSha256": "a646564af9d8953d64fe07a5f036ae9b67bc823cbee950cf6e25485b37e66405",
+      "timeSeconds": 1.083333
+    },
+    {
+      "cell": {
+        "column": 0,
+        "row": 2
+      },
+      "frameId": "source-frame:28",
+      "sourceFrameIndex": 28,
+      "sourceLocator": "/Users/fabiogiolito/Sites/design-builder/.toolcraft/scratch/gold-globe/reference-gold-globe.mp4#frame=28",
+      "sourceSha256": "a646564af9d8953d64fe07a5f036ae9b67bc823cbee950cf6e25485b37e66405",
+      "timeSeconds": 1.166667
+    },
+    {
+      "cell": {
+        "column": 1,
+        "row": 2
+      },
+      "frameId": "source-frame:30",
+      "sourceFrameIndex": 30,
+      "sourceLocator": "/Users/fabiogiolito/Sites/design-builder/.toolcraft/scratch/gold-globe/reference-gold-globe.mp4#frame=30",
+      "sourceSha256": "a646564af9d8953d64fe07a5f036ae9b67bc823cbee950cf6e25485b37e66405",
+      "timeSeconds": 1.25
+    },
+    {
+      "cell": {
+        "column": 2,
+        "row": 2
+      },
+      "frameId": "source-frame:32",
+      "sourceFrameIndex": 32,
+      "sourceLocator": "/Users/fabiogiolito/Sites/design-builder/.toolcraft/scratch/gold-globe/reference-gold-globe.mp4#frame=32",
+      "sourceSha256": "a646564af9d8953d64fe07a5f036ae9b67bc823cbee950cf6e25485b37e66405",
+      "timeSeconds": 1.333333
+    },
+    {
+      "cell": {
+        "column": 3,
+        "row": 2
+      },
+      "frameId": "source-frame:34",
+      "sourceFrameIndex": 34,
+      "sourceLocator": "/Users/fabiogiolito/Sites/design-builder/.toolcraft/scratch/gold-globe/reference-gold-globe.mp4#frame=34",
+      "sourceSha256": "a646564af9d8953d64fe07a5f036ae9b67bc823cbee950cf6e25485b37e66405",
+      "timeSeconds": 1.416667
+    },
+    {
+      "cell": {
+        "column": 4,
+        "row": 2
+      },
+      "frameId": "source-frame:36",
+      "sourceFrameIndex": 36,
+      "sourceLocator": "/Users/fabiogiolito/Sites/design-builder/.toolcraft/scratch/gold-globe/reference-gold-globe.mp4#frame=36",
+      "sourceSha256": "a646564af9d8953d64fe07a5f036ae9b67bc823cbee950cf6e25485b37e66405",
+      "timeSeconds": 1.5
+    },
+    {
+      "cell": {
+        "column": 5,
+        "row": 2
+      },
+      "frameId": "source-frame:38",
+      "sourceFrameIndex": 38,
+      "sourceLocator": "/Users/fabiogiolito/Sites/design-builder/.toolcraft/scratch/gold-globe/reference-gold-globe.mp4#frame=38",
+      "sourceSha256": "a646564af9d8953d64fe07a5f036ae9b67bc823cbee950cf6e25485b37e66405",
+      "timeSeconds": 1.583333
+    },
+    {
+      "cell": {
+        "column": 6,
+        "row": 2
+      },
+      "frameId": "source-frame:40",
+      "sourceFrameIndex": 40,
+      "sourceLocator": "/Users/fabiogiolito/Sites/design-builder/.toolcraft/scratch/gold-globe/reference-gold-globe.mp4#frame=40",
+      "sourceSha256": "a646564af9d8953d64fe07a5f036ae9b67bc823cbee950cf6e25485b37e66405",
+      "timeSeconds": 1.666667
+    },
+    {
+      "cell": {
+        "column": 7,
+        "row": 2
+      },
+      "frameId": "source-frame:42",
+      "sourceFrameIndex": 42,
+      "sourceLocator": "/Users/fabiogiolito/Sites/design-builder/.toolcraft/scratch/gold-globe/reference-gold-globe.mp4#frame=42",
+      "sourceSha256": "a646564af9d8953d64fe07a5f036ae9b67bc823cbee950cf6e25485b37e66405",
+      "timeSeconds": 1.75
+    },
+    {
+      "cell": {
+        "column": 8,
+        "row": 2
+      },
+      "frameId": "source-frame:44",
+      "sourceFrameIndex": 44,
+      "sourceLocator": "/Users/fabiogiolito/Sites/design-builder/.toolcraft/scratch/gold-globe/reference-gold-globe.mp4#frame=44",
+      "sourceSha256": "a646564af9d8953d64fe07a5f036ae9b67bc823cbee950cf6e25485b37e66405",
+      "timeSeconds": 1.833333
+    },
+    {
+      "cell": {
+        "column": 0,
+        "row": 3
+      },
+      "frameId": "source-frame:46",
+      "sourceFrameIndex": 46,
+      "sourceLocator": "/Users/fabiogiolito/Sites/design-builder/.toolcraft/scratch/gold-globe/reference-gold-globe.mp4#frame=46",
+      "sourceSha256": "a646564af9d8953d64fe07a5f036ae9b67bc823cbee950cf6e25485b37e66405",
+      "timeSeconds": 1.916667
+    },
+    {
+      "cell": {
+        "column": 1,
+        "row": 3
+      },
+      "frameId": "source-frame:48",
+      "sourceFrameIndex": 48,
+      "sourceLocator": "/Users/fabiogiolito/Sites/design-builder/.toolcraft/scratch/gold-globe/reference-gold-globe.mp4#frame=48",
+      "sourceSha256": "a646564af9d8953d64fe07a5f036ae9b67bc823cbee950cf6e25485b37e66405",
+      "timeSeconds": 2
+    },
+    {
+      "cell": {
+        "column": 2,
+        "row": 3
+      },
+      "frameId": "source-frame:49",
+      "sourceFrameIndex": 49,
+      "sourceLocator": "/Users/fabiogiolito/Sites/design-builder/.toolcraft/scratch/gold-globe/reference-gold-globe.mp4#frame=49",
+      "sourceSha256": "a646564af9d8953d64fe07a5f036ae9b67bc823cbee950cf6e25485b37e66405",
+      "timeSeconds": 2.041667
+    },
+    {
+      "cell": {
+        "column": 3,
+        "row": 3
+      },
+      "frameId": "source-frame:50",
+      "sourceFrameIndex": 50,
+      "sourceLocator": "/Users/fabiogiolito/Sites/design-builder/.toolcraft/scratch/gold-globe/reference-gold-globe.mp4#frame=50",
+      "sourceSha256": "a646564af9d8953d64fe07a5f036ae9b67bc823cbee950cf6e25485b37e66405",
+      "timeSeconds": 2.083333
+    },
+    {
+      "cell": {
+        "column": 4,
+        "row": 3
+      },
+      "frameId": "source-frame:52",
+      "sourceFrameIndex": 52,
+      "sourceLocator": "/Users/fabiogiolito/Sites/design-builder/.toolcraft/scratch/gold-globe/reference-gold-globe.mp4#frame=52",
+      "sourceSha256": "a646564af9d8953d64fe07a5f036ae9b67bc823cbee950cf6e25485b37e66405",
+      "timeSeconds": 2.166667
+    },
+    {
+      "cell": {
+        "column": 5,
+        "row": 3
+      },
+      "frameId": "source-frame:54",
+      "sourceFrameIndex": 54,
+      "sourceLocator": "/Users/fabiogiolito/Sites/design-builder/.toolcraft/scratch/gold-globe/reference-gold-globe.mp4#frame=54",
+      "sourceSha256": "a646564af9d8953d64fe07a5f036ae9b67bc823cbee950cf6e25485b37e66405",
+      "timeSeconds": 2.25
+    },
+    {
+      "cell": {
+        "column": 6,
+        "row": 3
+      },
+      "frameId": "source-frame:56",
+      "sourceFrameIndex": 56,
+      "sourceLocator": "/Users/fabiogiolito/Sites/design-builder/.toolcraft/scratch/gold-globe/reference-gold-globe.mp4#frame=56",
+      "sourceSha256": "a646564af9d8953d64fe07a5f036ae9b67bc823cbee950cf6e25485b37e66405",
+      "timeSeconds": 2.333333
+    },
+    {
+      "cell": {
+        "column": 7,
+        "row": 3
+      },
+      "frameId": "source-frame:58",
+      "sourceFrameIndex": 58,
+      "sourceLocator": "/Users/fabiogiolito/Sites/design-builder/.toolcraft/scratch/gold-globe/reference-gold-globe.mp4#frame=58",
+      "sourceSha256": "a646564af9d8953d64fe07a5f036ae9b67bc823cbee950cf6e25485b37e66405",
+      "timeSeconds": 2.416667
+    },
+    {
+      "cell": {
+        "column": 8,
+        "row": 3
+      },
+      "frameId": "source-frame:60",
+      "sourceFrameIndex": 60,
+      "sourceLocator": "/Users/fabiogiolito/Sites/design-builder/.toolcraft/scratch/gold-globe/reference-gold-globe.mp4#frame=60",
+      "sourceSha256": "a646564af9d8953d64fe07a5f036ae9b67bc823cbee950cf6e25485b37e66405",
+      "timeSeconds": 2.5
+    },
+    {
+      "cell": {
+        "column": 0,
+        "row": 4
+      },
+      "frameId": "source-frame:62",
+      "sourceFrameIndex": 62,
+      "sourceLocator": "/Users/fabiogiolito/Sites/design-builder/.toolcraft/scratch/gold-globe/reference-gold-globe.mp4#frame=62",
+      "sourceSha256": "a646564af9d8953d64fe07a5f036ae9b67bc823cbee950cf6e25485b37e66405",
+      "timeSeconds": 2.583333
+    },
+    {
+      "cell": {
+        "column": 1,
+        "row": 4
+      },
+      "frameId": "source-frame:64",
+      "sourceFrameIndex": 64,
+      "sourceLocator": "/Users/fabiogiolito/Sites/design-builder/.toolcraft/scratch/gold-globe/reference-gold-globe.mp4#frame=64",
+      "sourceSha256": "a646564af9d8953d64fe07a5f036ae9b67bc823cbee950cf6e25485b37e66405",
+      "timeSeconds": 2.666667
+    },
+    {
+      "cell": {
+        "column": 2,
+        "row": 4
+      },
+      "frameId": "source-frame:66",
+      "sourceFrameIndex": 66,
+      "sourceLocator": "/Users/fabiogiolito/Sites/design-builder/.toolcraft/scratch/gold-globe/reference-gold-globe.mp4#frame=66",
+      "sourceSha256": "a646564af9d8953d64fe07a5f036ae9b67bc823cbee950cf6e25485b37e66405",
+      "timeSeconds": 2.75
+    },
+    {
+      "cell": {
+        "column": 3,
+        "row": 4
+      },
+      "frameId": "source-frame:68",
+      "sourceFrameIndex": 68,
+      "sourceLocator": "/Users/fabiogiolito/Sites/design-builder/.toolcraft/scratch/gold-globe/reference-gold-globe.mp4#frame=68",
+      "sourceSha256": "a646564af9d8953d64fe07a5f036ae9b67bc823cbee950cf6e25485b37e66405",
+      "timeSeconds": 2.833333
+    },
+    {
+      "cell": {
+        "column": 4,
+        "row": 4
+      },
+      "frameId": "source-frame:70",
+      "sourceFrameIndex": 70,
+      "sourceLocator": "/Users/fabiogiolito/Sites/design-builder/.toolcraft/scratch/gold-globe/reference-gold-globe.mp4#frame=70",
+      "sourceSha256": "a646564af9d8953d64fe07a5f036ae9b67bc823cbee950cf6e25485b37e66405",
+      "timeSeconds": 2.916667
+    },
+    {
+      "cell": {
+        "column": 5,
+        "row": 4
+      },
+      "frameId": "source-frame:72",
+      "sourceFrameIndex": 72,
+      "sourceLocator": "/Users/fabiogiolito/Sites/design-builder/.toolcraft/scratch/gold-globe/reference-gold-globe.mp4#frame=72",
+      "sourceSha256": "a646564af9d8953d64fe07a5f036ae9b67bc823cbee950cf6e25485b37e66405",
+      "timeSeconds": 3
+    }
+  ],
+  "scannedFrameCount": 73,
+  "sourceBasename": "reference-gold-globe.mp4",
+  "sourceKind": "video",
+  "sourceSha256": "a646564af9d8953d64fe07a5f036ae9b67bc823cbee950cf6e25485b37e66405",
+  "studyId": "motion-v1-c079eb47f7c348acf71e8013d21f8e79f6b1faef775151d2b781d7353a4a2abb",
+  "timing": {
+    "authority": "decoded-timestamps"
+  },
+  "timingMode": "seconds",
+  "width": 1280
+}

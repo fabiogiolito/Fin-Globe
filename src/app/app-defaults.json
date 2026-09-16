@@ -1,0 +1,422 @@
+{
+  "version": 2,
+  "appId": "design-builder",
+  "state": {
+    "values": {
+      "export.includeBackground": true,
+      "scene.background": "#000000",
+      "canvas.workspaceBackground": "dots",
+      "canvas.aspectRatio": {
+        "height": 9,
+        "mode": "preset",
+        "value": "16:9",
+        "width": 16
+      },
+      "canvas.size.width": 1920,
+      "canvas.size.height": 1080,
+      "globe.spin": 500,
+      "globe.relief": 0.35,
+      "globe.x": 0,
+      "globe.y": 0,
+      "globe.z": 5.4,
+      "globe.shine": 0.3,
+      "material.gold": 1,
+      "material.stoneRoughness": 0.05,
+      "material.stoneFinish": "smooth",
+      "camera.x": 0,
+      "camera.y": 0,
+      "camera.z": 7.2,
+      "camera.yaw": 0,
+      "camera.pitch": 0,
+      "camera.focusDistance": 1.45,
+      "camera.focusBlur": 0,
+      "light.x": 0,
+      "light.y": 7.1,
+      "light.z": 15,
+      "light.intensity": 0.85,
+      "light.beamAngle": 19,
+      "light.beamSoftness": 0.63,
+      "light.edgeFalloff": 0.05,
+      "grade.temperature": 0,
+      "grade.tint": 0,
+      "transactions.show": 1,
+      "transactions.intensity": 1.65,
+      "transactions.shimmer": 0,
+      "export.image.format": "png",
+      "export.image.resolution": "4k",
+      "export.video.format": "mp4",
+      "export.video.resolution": "current"
+    },
+    "canvas": {
+      "offset": {
+        "x": -73.86000000000006,
+        "y": 28.47
+      },
+      "size": {
+        "height": 1080,
+        "unit": "px",
+        "width": 1920
+      },
+      "zoom": 62,
+      "mode": "finite"
+    },
+    "panels": {
+      "controls": {
+        "collapsedSections": {
+          "runtime.setup": true
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "collapsed": false,
+        "scrollTop": 0
+      },
+      "layers": {
+        "offset": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "timeline": {
+        "offset": {
+          "x": -329.92092802083016,
+          "y": 0
+        },
+        "extended": true,
+        "snapEdge": "top"
+      },
+      "toolbar": {
+        "offset": {
+          "x": 0,
+          "y": 0
+        }
+      }
+    },
+    "timeline": {
+      "currentTimeSeconds": 6.733133999999944,
+      "durationSeconds": 30,
+      "expanded": false,
+      "isLooping": true,
+      "isPlaying": true,
+      "selectedKeyframeId": null,
+      "keyframeGroups": [
+        {
+          "controlId": "globe.spin",
+          "keyframes": [
+            {
+              "controlId": "globe.spin",
+              "controlLabel": "Spin",
+              "id": "globe.spin::0",
+              "timeSeconds": 0,
+              "valueLabel": "140°",
+              "value": 140,
+              "easing": {
+                "controlPoints": [
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                "type": "bezier"
+              }
+            },
+            {
+              "controlId": "globe.spin",
+              "controlLabel": "Spin",
+              "id": "globe.spin::30",
+              "timeSeconds": 30,
+              "valueLabel": "500°",
+              "value": 500,
+              "easing": {
+                "controlPoints": [
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                "type": "bezier"
+              }
+            }
+          ],
+          "label": "Spin"
+        },
+        {
+          "controlId": "material.gold",
+          "keyframes": [
+            {
+              "controlId": "material.gold",
+              "controlLabel": "Gold",
+              "id": "material.gold::0",
+              "timeSeconds": 0,
+              "valueLabel": "0.92",
+              "value": 0.92
+            },
+            {
+              "controlId": "material.gold",
+              "controlLabel": "Gold",
+              "id": "material.gold::14.5",
+              "timeSeconds": 14.5,
+              "valueLabel": "1",
+              "value": 1
+            }
+          ],
+          "label": "Gold"
+        },
+        {
+          "controlId": "light.edgeFalloff",
+          "keyframes": [
+            {
+              "controlId": "light.edgeFalloff",
+              "controlLabel": "Edge falloff",
+              "id": "light.edgeFalloff::0",
+              "timeSeconds": 0,
+              "valueLabel": "1.1",
+              "value": 1.1
+            },
+            {
+              "controlId": "light.edgeFalloff",
+              "controlLabel": "Edge falloff",
+              "id": "light.edgeFalloff::14.5",
+              "timeSeconds": 14.5,
+              "valueLabel": "0.05",
+              "value": 0.05
+            }
+          ],
+          "label": "Edge falloff"
+        },
+        {
+          "controlId": "light.intensity",
+          "keyframes": [
+            {
+              "controlId": "light.intensity",
+              "controlLabel": "Intensity",
+              "id": "light.intensity::0",
+              "timeSeconds": 0,
+              "valueLabel": "1.8",
+              "value": 1.8
+            },
+            {
+              "controlId": "light.intensity",
+              "controlLabel": "Intensity",
+              "id": "light.intensity::14.5",
+              "timeSeconds": 14.5,
+              "valueLabel": "0.85",
+              "value": 0.85
+            }
+          ],
+          "label": "Intensity"
+        },
+        {
+          "controlId": "globe.y",
+          "keyframes": [
+            {
+              "controlId": "globe.y",
+              "controlLabel": "Position Y",
+              "id": "globe.y::0",
+              "timeSeconds": 0,
+              "valueLabel": "-1.25",
+              "value": -1.25
+            },
+            {
+              "controlId": "globe.y",
+              "controlLabel": "Position Y",
+              "id": "globe.y::14.5",
+              "timeSeconds": 14.5,
+              "valueLabel": "0",
+              "value": 0
+            }
+          ],
+          "label": "Position Y"
+        },
+        {
+          "controlId": "light.y",
+          "keyframes": [
+            {
+              "controlId": "light.y",
+              "controlLabel": "Position Y",
+              "id": "light.y::14.5",
+              "timeSeconds": 14.5,
+              "valueLabel": "7.1",
+              "value": 7.1
+            }
+          ],
+          "label": "Position Y"
+        },
+        {
+          "controlId": "light.z",
+          "keyframes": [
+            {
+              "controlId": "light.z",
+              "controlLabel": "Position Z",
+              "id": "light.z::0",
+              "timeSeconds": 0,
+              "valueLabel": "-15",
+              "value": -15
+            },
+            {
+              "controlId": "light.z",
+              "controlLabel": "Position Z",
+              "id": "light.z::17.49",
+              "timeSeconds": 17.49,
+              "valueLabel": "15",
+              "value": 15
+            }
+          ],
+          "label": "Position Z"
+        },
+        {
+          "controlId": "light.x",
+          "keyframes": [
+            {
+              "controlId": "light.x",
+              "controlLabel": "Position X",
+              "id": "light.x::15.01",
+              "timeSeconds": 15.01,
+              "valueLabel": "0",
+              "value": 0
+            }
+          ],
+          "label": "Position X"
+        },
+        {
+          "controlId": "globe.shine",
+          "keyframes": [
+            {
+              "controlId": "globe.shine",
+              "controlLabel": "Shine",
+              "id": "globe.shine::0",
+              "timeSeconds": 0,
+              "valueLabel": "0.3",
+              "value": 0.3
+            },
+            {
+              "controlId": "globe.shine",
+              "controlLabel": "Shine",
+              "id": "globe.shine::14.46",
+              "timeSeconds": 14.46,
+              "valueLabel": "0.2",
+              "value": 0.2
+            }
+          ],
+          "label": "Shine"
+        },
+        {
+          "controlId": "globe.z",
+          "keyframes": [
+            {
+              "controlId": "globe.z",
+              "controlLabel": "Position Z",
+              "id": "globe.z::0",
+              "timeSeconds": 0,
+              "valueLabel": "5.4",
+              "value": 5.4
+            },
+            {
+              "controlId": "globe.z",
+              "controlLabel": "Position Z",
+              "id": "globe.z::14.5",
+              "timeSeconds": 14.5,
+              "valueLabel": "0.65",
+              "value": 0.65
+            }
+          ],
+          "label": "Position Z"
+        },
+        {
+          "controlId": "globe.relief",
+          "keyframes": [
+            {
+              "controlId": "globe.relief",
+              "controlLabel": "Relief",
+              "id": "globe.relief::0",
+              "timeSeconds": 0,
+              "valueLabel": "0.25",
+              "value": 0.25
+            },
+            {
+              "controlId": "globe.relief",
+              "controlLabel": "Relief",
+              "id": "globe.relief::14.52",
+              "timeSeconds": 14.52,
+              "valueLabel": "0.35",
+              "value": 0.35
+            }
+          ],
+          "label": "Relief"
+        },
+        {
+          "controlId": "camera.focusDistance",
+          "keyframes": [
+            {
+              "controlId": "camera.focusDistance",
+              "controlLabel": "Focus distance",
+              "id": "camera.focusDistance::0",
+              "timeSeconds": 0,
+              "valueLabel": "1.45",
+              "value": 1.45
+            },
+            {
+              "controlId": "camera.focusDistance",
+              "controlLabel": "Focus distance",
+              "id": "camera.focusDistance::14.54",
+              "timeSeconds": 14.54,
+              "valueLabel": "5.45",
+              "value": 5.45
+            }
+          ],
+          "label": "Focus distance"
+        },
+        {
+          "controlId": "camera.focusBlur",
+          "keyframes": [
+            {
+              "controlId": "camera.focusBlur",
+              "controlLabel": "Focus blur",
+              "id": "camera.focusBlur::0",
+              "timeSeconds": 0,
+              "valueLabel": "0.55",
+              "value": 0.55
+            },
+            {
+              "controlId": "camera.focusBlur",
+              "controlLabel": "Focus blur",
+              "id": "camera.focusBlur::6.46",
+              "timeSeconds": 6.46,
+              "valueLabel": "0",
+              "value": 0
+            }
+          ],
+          "label": "Focus blur"
+        },
+        {
+          "controlId": "transactions.show",
+          "keyframes": [
+            {
+              "controlId": "transactions.show",
+              "controlLabel": "Show",
+              "id": "transactions.show::4.83",
+              "timeSeconds": 4.83,
+              "valueLabel": "0",
+              "value": 0
+            },
+            {
+              "controlId": "transactions.show",
+              "controlLabel": "Show",
+              "id": "transactions.show::5.93",
+              "timeSeconds": 5.93,
+              "valueLabel": "1",
+              "value": 1
+            }
+          ],
+          "label": "Show"
+        }
+      ]
+    },
+    "layers": [],
+    "selectedLayerId": null,
+    "mediaAssets": []
+  },
+  "resources": [],
+  "theme": "dark"
+}
