@@ -78,7 +78,7 @@ export function GlobeDemo(): React.JSX.Element {
           <canvas ref={canvasRef} className="sticky top-0 block h-dvh w-full" aria-label="Gold globe" role="img" />
           {/* Natural position 170dvh into the wrapper, so it reaches its 70dvh resting spot exactly at the second viewport. */}
           <p
-            className="pointer-events-none sticky top-[80dvh] z-10 mx-auto mt-[80dvh] max-w-2xl px-4 text-center text-2xl leading-tight tracking-tight text-[#d1c8b6] md:text-3xl"
+            className="pointer-events-none sticky top-[80dvh] z-10 mx-auto mt-[80dvh] max-w-2xl px-4 text-center text-pretty text-2xl leading-tight tracking-tight text-[#d1c8b6] md:text-3xl"
             style={{ fontFamily: "PPCirka, serif" }}
           >
             Fin is the new financial infrastructure. One network. Transparent pricing. Settlement in minutes.
